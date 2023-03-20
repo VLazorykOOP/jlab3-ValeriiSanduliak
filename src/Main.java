@@ -6,7 +6,7 @@ public class Main {
     static void Task1() {
         Place[] places = new Place[4];
         places[0] = new Place("Some place", 100000);
-        places[1] = new Region("Kyivskyi", "Kyiv", 234000);
+        places[1] = new Region("Kyivskyi", "Ukraine", 234000);
         places[2] = new City("London", 89999992, 30);
         places[3] = new Megapolis("Tokyo", 1323232, 23, 19);
         System.out.println("-------------------");

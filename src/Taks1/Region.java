@@ -1,13 +1,13 @@
 package Taks1;
 public class Region extends Place{
-        private String capital;
-        public Region(String name,String capital,int population){
+        private String country;
+        public Region(String name,String country,int population){
             super(name,population);
-            this.capital = capital;
+            this.country = country;
         }
         public void Show(){
             System.out.println("Region info:");
             super.Show();
-            System.out.println("Capital: "+ capital);
+            System.out.println("Country: "+ country);
         }
 }
