@@ -8,7 +8,7 @@ public class Place
         this.name=name ;
         this.population = population;
     }
-    public void Show(){
+    public void show(){
         System.out.println("Name: " + name);
         System.out.println("Population: " + population);
     }

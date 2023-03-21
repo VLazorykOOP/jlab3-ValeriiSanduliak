@@ -8,9 +8,9 @@ public class Megapolis extends Place{
         this.airportCount = airportCount;
         this.parkCount = parkCount;
     }
-    public void Show() {
+    public void show() {
         System.out.println("Megapolis info");
-        super.Show();
+        super.show();
         System.out.println("Airport Count : " + airportCount);
         System.out.println("Park Count: " + parkCount);
     }

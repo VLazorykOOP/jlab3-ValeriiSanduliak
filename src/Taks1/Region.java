@@ -5,9 +5,9 @@ public class Region extends Place{
             super(name,population);
             this.country = country;
         }
-        public void Show(){
+        public void show(){
             System.out.println("Region info:");
-            super.Show();
+            super.show();
             System.out.println("Country: "+ country);
         }
 }

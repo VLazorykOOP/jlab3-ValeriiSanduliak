@@ -13,7 +13,7 @@ public class Main {
         System.out.println("Test inheritance :");
         System.out.println("-------------------");
         for (Place place : places) {
-            place.Show();
+            place.show();
             System.out.println("-------------------");
         }
     }

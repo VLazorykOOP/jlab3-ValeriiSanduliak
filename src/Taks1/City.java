@@ -6,9 +6,9 @@ public class City extends Place{
         super(name,population);
         this.streetCount = streetCount;
     }
-    public void Show() {
+    public void show() {
         System.out.println("City info:");
-        super.Show();
+        super.show();
         System.out.println("Street Count: " + streetCount);
     }
 }
